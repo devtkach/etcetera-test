@@ -1,0 +1,13 @@
+.card {
+  transition: all .3s ease-out;
+}
+
+.card-body {
+  flex: none;
+
+  &:hover {
+    transition: all .3s ease-in;
+    background-color: $secondary;
+  }
+}
+

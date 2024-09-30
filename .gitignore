@@ -5,6 +5,7 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
+/themes/understrap-child/node_modules
 /wp-admin/
 /wp-content/index.php
 /wp-content/languages
@@ -45,4 +46,4 @@ wp-config.php
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
-/wp-content/themes
+#/wp-content/themes
